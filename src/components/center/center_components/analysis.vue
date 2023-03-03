@@ -1,10 +1,11 @@
 <template>
-    <router-view></router-view>
+    数据分析
 </template>
 
-<script setup>
+<script setup lang="ts">
 
 </script>
 
 <style scoped lang="less">
+
 </style>

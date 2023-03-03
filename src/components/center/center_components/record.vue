@@ -1,10 +1,11 @@
 <template>
-    <router-view></router-view>
+    学习记录
 </template>
 
-<script setup>
+<script setup lang="ts">
 
 </script>
 
 <style scoped lang="less">
+
 </style>
