@@ -1,0 +1,264 @@
+.header {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.header-bg {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.header-bg-img {
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    filter: blur(25px) brightness(50%);
+    transform: scale(1.2);
+}
+
+.header-content {
+    position: absolute;
+    top: 0px;
+    left: 20%;
+    height: 100%;
+    width: 1200px;
+    /* border: 2px red solid; */
+}
+
+.header-content-title {
+    height: 50px;
+    vertical-align: center;
+    text-align: left;
+    /* border: springgreen 2px solid; */
+}
+
+.header-content-title a {
+    line-height: 45px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-main {
+    display: flex;
+    /* border: 2px yellow solid; */
+}
+
+.header-main-pic img {
+    width: 480px;
+    height: 270px;
+}
+
+.header-main-detail {
+    padding-left: 10px;
+    width: 700px;
+    /* border: wheat 2px solid; */
+}
+
+.header-main-detail-name {
+    color: white;
+    /* border: violet solid 2px; */
+}
+
+.header-main-detail-name h3 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+.header-main-detail-name ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-main-detail-name ul li {
+    width: 300px;
+    height: 36px;
+    display: block;
+}
+
+.header-main-detail-data {
+    height: 48px;
+    color: white;
+    display: flex;
+}
+
+.header-main-detail-data dl {
+    margin-right: 40px;
+}
+
+.header-main-detail-data dt {
+    margin-bottom: 5px;
+}
+
+.header-main-detail-data dl dt:nth-child(1) {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header-main-detail-data dl dt:nth-child(2) {
+    font-size: 12px;
+    color: white;
+}
+
+.header-main-detail-data-btn {
+    position: relative;
+    top: 45px;
+    height: 40px;
+    width: 700px;
+    /* border: 1px red solid; */
+}
+
+.header-main-detail-data-btn div {
+    height: 42px;
+    width: 312px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+
+.header-main-detail-data-btn span {
+    height: 42px;
+    width: 120px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    color: white;
+    background-color: #3D84FF;
+    float: right;
+    /* border: 1px white solid; */
+}
+
+.center {
+    width: 1200px;
+    margin: 10px auto;
+    display: flex;
+    height: 600px;
+}
+
+.center-menu {
+    width: 220px;
+    height: 560px;
+    color: grey;
+    background-color: #F6F6F6;
+    /* border: 1px solid red; */
+}
+
+.center-content {
+    flex: 1;
+    margin-left: 20px;
+    overflow: auto;
+    background-color: #F6F6F6;
+    /* border: 1px solid red; */
+}
+
+.menu-item {
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    line-height: 30px;
+    color: #333;
+    width: 80%;
+    margin-left: 10%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+
+.content-item {
+    padding: 30px;
+    /* height: 1800px; */
+    /* border: 1px solid black; */
+}
+
+.content-item h3 {
+    color: #3d3434;
+}
+
+.content-item p {
+    line-height: 35px;
+    color: #584b4b;
+}
+
+.active {
+    background-color: #3D84FF;
+    color: #FFF;
+}
+
+ ::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+}
+
+.item-teacher {
+    margin-bottom: 40px;
+}
+
+.teacher-header {
+    display: flex;
+    height: 61px;
+    /* border: royalblue 1px solid; */
+}
+
+.teacher-header div:nth-child(1) {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.teacher-header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.teacher-detail {
+    margin-left: 10px;
+    height: 61px;
+    /* border: 1px springgreen solid; */
+    flex: 1;
+}
+
+.teacher-detail h5,
+.evaluate h5 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #3d3434;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.teacher-detail p {
+    color: #6b6666;
+    font-size: 14px;
+}
+
+.evaluate {
+    display: flex;
+}
+
+.evaluate div {
+    width: 400px;
+    /* border: 1px solid red; */
+}
+
+.evaluate div:nth-child(2) {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.evaluate div img {
+    width: 400px;
+    height: 250px;
+}
